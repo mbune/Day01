@@ -1,8 +1,8 @@
-Template for a typical GopherGfx graphics application
 
 
-## To create a new GopherGfx app from this template
-* From the main page of this repository, click the *Use this template* button.
+## To create a new GopherGfx app from a template
+* Go to the [GopherGfx-AppTemplate repository](https://github.com/CSCI-4611-Fall-2023/GopherGfx-AppTemplate/tree/main)
+* Click the green *Use this template* button.
 * Select *Create a new repository*
 * Set repository options on the next page..
 
