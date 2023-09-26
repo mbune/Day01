@@ -18,6 +18,8 @@ export class ExampleApp extends gfx.GfxApp
         // initialize the base class gfx.GfxApp
         super();
 
+        this.mouth2 = new gfx.Mesh2();
+
         this.mouth = new gfx.Mesh2();
         this.pacman = new gfx.Mesh2();
         this.elapsedTime = 0;
