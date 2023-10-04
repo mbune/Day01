@@ -18,8 +18,6 @@ export class ExampleApp extends gfx.GfxApp
         // initialize the base class gfx.GfxApp
         super();
 
-        this.mouth2 = new gfx.Mesh2();
-
         this.mouth = new gfx.Mesh2();
         this.pacman = new gfx.Mesh2();
         this.elapsedTime = 0;
@@ -53,7 +51,7 @@ export class ExampleApp extends gfx.GfxApp
         this.pacman = gfx.Geometry2Factory.createPieSlice(0.2, Math.PI/10, -Math.PI/10);
         this.scene.add(this.pacman);
         this.pacman.material.color = gfx.Color.YELLOW;
-        //this.pacman.position = new gfx.Vector2(1,1);
+        this.pacman.position = new gfx.Vector2(1,1);
 
         /* 
         // the face made of rectangles example
